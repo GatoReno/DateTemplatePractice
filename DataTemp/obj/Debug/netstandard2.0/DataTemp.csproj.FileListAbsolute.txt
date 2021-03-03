@@ -1,0 +1,16 @@
+/Users/edrodriguez/projects/DataTemp/DataTemp/bin/Debug/netstandard2.0/DataTemp.deps.json
+/Users/edrodriguez/projects/DataTemp/DataTemp/bin/Debug/netstandard2.0/DataTemp.dll
+/Users/edrodriguez/projects/DataTemp/DataTemp/bin/Debug/netstandard2.0/ref/DataTemp.dll
+/Users/edrodriguez/projects/DataTemp/DataTemp/bin/Debug/netstandard2.0/DataTemp.pdb
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/DataTemp.csprojAssemblyReference.cache
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/Controls/DeviceViewCell.xaml.g.cs
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/Controls/PaymentViewCell.xaml.g.cs
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/DataTemp.AssemblyInfoInputs.cache
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/DataTemp.AssemblyInfo.cs
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/DataTemp.csproj.CoreCompileInputs.cache
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/DataTemp.dll
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/ref/DataTemp.dll
+/Users/edrodriguez/projects/DataTemp/DataTemp/obj/Debug/netstandard2.0/DataTemp.pdb

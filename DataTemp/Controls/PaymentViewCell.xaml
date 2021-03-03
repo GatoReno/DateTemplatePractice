@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ViewCell
+    x:Class="DataTemp.Controls.PaymentViewCell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ViewCell.ContextActions>
+        <MenuItem IsDestructive="True" Text="Delete" />
+    </ViewCell.ContextActions>
+    <ViewCell.View>
+        <StackLayout Padding="10">
+            <Label Text="{Binding Name}" />
+            <Label Text="{Binding Type}" />
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="DataTemp.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:DataTemp"
+    xmlns:tempS="clr-namespace:DataTemp.Controls">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--  cell types  -->
+            <DataTemplate x:Key="PaymentViewCell">
+                <tempS:PaymentViewCell />
+            </DataTemplate>
+
+            <DataTemplate x:Key="DeviceViewCell">
+                <tempS:DeviceViewCell />
+            </DataTemplate>
+            <!--  template selector  -->
+            <tempS:PaymentTypeTemplateSelector
+                x:Key="PaymentTypeTemplateSelector"
+                DeviceTemplate="{StaticResource DeviceViewCell}"
+                PaymentTemplate="{StaticResource PaymentViewCell}" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Frame
+            Padding="24"
+            BackgroundColor="#2196F3"
+            CornerRadius="0">
+            <Label
+                FontSize="36"
+                HorizontalTextAlignment="Center"
+                Text="Welcome to Xamarin.Forms!"
+                TextColor="White" />
+        </Frame>
+        <Label
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="Start developing now" />
+        <Label
+            Padding="30,0,30,0"
+            FontSize="16"
+            Text="ListView!Data template" />
+
+        <StackLayout Padding="30,10,30,10">
+            <ListView
+                HasUnevenRows="True"
+                IsPullToRefreshEnabled="True"
+                IsRefreshing="{Binding IsRefreshing}"
+                ItemTemplate="{StaticResource PaymentTypeTemplateSelector}"
+                ItemsSource="{Binding PaymentsAndDevices}"
+                RefreshCommand="{Binding OnRefreshCommand}" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
