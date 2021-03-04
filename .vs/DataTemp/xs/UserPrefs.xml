@@ -1,21 +1,16 @@
-﻿<Properties StartupConfiguration="{A45474E5-8375-4C1F-9A44-3F4D0EFB1328}|Default">
-  <MonoDevelop.Ide.ItemProperties.DataTemp.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E4DE85FD-1D12-47E9-A617-DE6112D9EBF7" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataTemp/Controls/DeviceViewCell.xaml">
+﻿<Properties StartupConfiguration="{3027AAAE-6147-4656-AABF-25F50BB4BF33}|Default">
+  <MonoDevelop.Ide.ItemProperties.DataTemp.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataTemp/Controls/PaymentViewCell.xaml">
     <Files>
       <File FileName="DataTemp/ViewModels/BaseViewModel.cs" Line="23" Column="10" />
-      <File FileName="DataTemp/ViewModels/MainViewModel.cs" />
-      <File FileName="DataTemp/Controls/PaymentTypeTemplateSelector.cs" />
-      <File FileName="DataTemp/MainPage.xaml" />
-      <File FileName="DataTemp/MainPage.xaml.cs" />
-      <File FileName="DataTemp/Controls/DeviceViewCell.xaml" Line="16" Column="1" />
-      <File FileName="DataTemp/Controls/DeviceViewCell.xaml.cs" />
-      <File FileName="DataTemp/Controls/PaymentViewCell.xaml" />
-      <File FileName="DataTemp/Controls/PaymentViewCell.xaml.cs" />
-      <File FileName="DataTemp.iOS/Main.cs" />
-      <File FileName="DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" />
-      <File FileName="DataTemp/Models/MockResponse.cs" />
-      <File FileName="DataTemp/Controls/Node.cs" />
-      <File FileName="DataTemp/Abstractions/IDevice.cs" />
+      <File FileName="DataTemp/ViewModels/MainViewModel.cs" Line="26" Column="48" />
+      <File FileName="DataTemp/Controls/PaymentTypeTemplateSelector.cs" Line="18" Column="14" />
+      <File FileName="DataTemp/Controls/DeviceViewCell.xaml" Line="11" Column="31" />
+      <File FileName="DataTemp/MainPage.xaml" Line="66" Column="1" />
+      <File FileName="DataTemp/Controls/PaymentViewCell.xaml" Line="9" Column="44" />
+      <File FileName="DataTemp/Models/MockResponse.cs" Line="25" Column="5" />
+      <File FileName="DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" Line="44" Column="16" NotebookId="1" />
+      <File FileName="DataTemp/App.xaml" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +19,8 @@
             <Node name="DataTemp" expanded="True">
               <Node name="Abstractions" expanded="True" />
               <Node name="Controls" expanded="True">
-                <Node name="DeviceViewCell.xaml" expanded="True" selected="True" />
+                <Node name="DeviceViewCell.xaml" expanded="True" />
+                <Node name="PaymentViewCell.xaml" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True">
@@ -32,17 +28,20 @@
               </Node>
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
+            <Node name="DataTemp.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DataTemp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.DataTemp.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/edrodriguez/projects/DataTemp/DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" relfile="DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" line="45" column="1" />
+      <Breakpoint file="/Users/edrodriguez/projects/DataTemp/DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" relfile="DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" line="44" column="1" />
+      <Breakpoint file="/Users/edrodriguez/projects/DataTemp/DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" relfile="DataTemp/ViewModels/ViewCells/DeviceViewCellViewModel.cs" line="51" column="1" />
+      <Breakpoint file="/Users/edrodriguez/projects/DataTemp/DataTemp/ViewModels/MainViewModel.cs" relfile="DataTemp/ViewModels/MainViewModel.cs" line="38" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

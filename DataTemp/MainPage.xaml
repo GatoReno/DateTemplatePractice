@@ -4,16 +4,34 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:DataTemp"
-    xmlns:tempS="clr-namespace:DataTemp.Controls">
+    xmlns:tempS="clr-namespace:DataTemp.Controls"
+    x:Name="this">
     <ContentPage.Resources>
         <ResourceDictionary>
             <!--  cell types  -->
             <DataTemplate x:Key="PaymentViewCell">
-                <tempS:PaymentViewCell />
+
+                <tempS:PaymentViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem
+                            Command="{Binding Source={x:Reference this}, Path=BindingContext.DeviceCommand}"
+                            CommandParameter="{Binding .}"
+                            IsDestructive="True"
+                            Text="Call" />
+                    </ViewCell.ContextActions>
+                </tempS:PaymentViewCell>
             </DataTemplate>
 
             <DataTemplate x:Key="DeviceViewCell">
-                <tempS:DeviceViewCell />
+                <tempS:DeviceViewCell>
+
+                    <ViewCell.ContextActions>
+                        <MenuItem
+                            Command="{Binding Source={x:Reference this}, Path=BindingContext.DeviceCommand}"
+                            CommandParameter="{Binding .}"
+                            Text="Call" />
+                    </ViewCell.ContextActions>
+                </tempS:DeviceViewCell>
             </DataTemplate>
             <!--  template selector  -->
             <tempS:PaymentTypeTemplateSelector
@@ -41,7 +59,7 @@
             Padding="30,0,30,0"
             FontSize="16"
             Text="ListView!Data template" />
-
+        <Button Command="{Binding OnCallUserDialogsCommand}" Text="User Dialogs" />
         <StackLayout Padding="30,10,30,10">
             <ListView
                 HasUnevenRows="True"

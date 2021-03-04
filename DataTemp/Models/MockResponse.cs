@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Windows.Input;
 
 namespace DataTemp.Models
 {
@@ -13,6 +14,10 @@ namespace DataTemp.Models
     {
         public string Name { get; set; }
         public string Number { get; set; }
+
+        public ICommand DeviceCommand { get; set; }
+ 
+
     }
 
     public class Payments

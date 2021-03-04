@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RFqDPUl85omCfxSLto6wAKoBNatNOgNak92L714UONWAk4JcvQJTCbuCh/mtqkh2KmeO7oEKUVcthyIyHg8p7g==",
+  "dgSpecHash": "V3aJFWYXyXkivsPcww/WbeYqLM/ZMFmxCe0AcZ2FMi5BAB+K/CuViZOyHbQu+AWB75CbfhuN7kTkE14TwPVBEg==",
   "success": true,
   "projectFilePath": "/Users/edrodriguez/projects/DataTemp/DataTemp/DataTemp.csproj",
   "expectedPackageFiles": [
+    "/Users/edrodriguez/.nuget/packages/acr.userdialogs/7.1.0.440/acr.userdialogs.7.1.0.440.nupkg.sha512",
     "/Users/edrodriguez/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/edrodriguez/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/edrodriguez/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

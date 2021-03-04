@@ -4,10 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Name="this">
-    <ViewCell.ContextActions>
-        <MenuItem Command="{Binding Source={x:Reference this}, Path=BindingContext.DeviceCommand}" Text="Call" />
-        <!--<MenuItem Command="{Binding DeviceCommand}" Text="Call" />-->
-    </ViewCell.ContextActions>
+
     <ViewCell.View>
 
         <StackLayout Padding="10">

@@ -1,4 +1,5 @@
 ﻿using System;
+using DataTemp.Models;
 using Xamarin.Forms;
 
 namespace DataTemp.Controls
@@ -10,15 +11,14 @@ namespace DataTemp.Controls
 
         protected override Xamarin.Forms.DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
-            var pay = (Object)item;
-            switch (pay.GetType().Name)
+
+            if (item is Devices)
             {
-                case "Devices":
-                    return DeviceTemplate;
-                case "DeviceViewCellViewModel":
-                    return DeviceTemplate;
-                default:
-                    return PaymentTemplate;
+                return DeviceTemplate;
+            }
+            else
+            {
+                return PaymentTemplate;
             }
         }
     }

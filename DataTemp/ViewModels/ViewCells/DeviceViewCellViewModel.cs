@@ -40,11 +40,15 @@ namespace DataTemp.ViewModels.ViewCells
         public DeviceViewCellViewModel()
         {
             DeviceCommand = new Command(OnDeviceCommnad);
+            //DeviceCommand = new Command(() =>
+            //{
+            //    // Execute logic here
+            //});
         }
 
         private void OnDeviceCommnad()
         {
-            
+            Console.WriteLine("U w U");
         }
     }
 }

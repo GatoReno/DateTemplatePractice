@@ -56,3 +56,7 @@
 /Users/edrodriguez/projects/DataTemp/DataTemp.iOS/obj/iPhoneSimulator/Debug/DataTemp.iOS.csproj.CopyComplete
 /Users/edrodriguez/projects/DataTemp/DataTemp.iOS/obj/iPhoneSimulator/Debug/DataTemp.iOS.exe
 /Users/edrodriguez/projects/DataTemp/DataTemp.iOS/obj/iPhoneSimulator/Debug/DataTemp.iOS.pdb
+/Users/edrodriguez/projects/DataTemp/DataTemp.iOS/bin/iPhoneSimulator/Debug/Acr.UserDialogs.dll
+/Users/edrodriguez/projects/DataTemp/DataTemp.iOS/bin/iPhoneSimulator/Debug/Acr.UserDialogs.pdb
+/Users/edrodriguez/projects/DataTemp/DataTemp.iOS/bin/iPhoneSimulator/Debug/BTProgressHUD.dll
+/Users/edrodriguez/projects/DataTemp/DataTemp.iOS/bin/iPhoneSimulator/Debug/BTProgressHUD.pdb

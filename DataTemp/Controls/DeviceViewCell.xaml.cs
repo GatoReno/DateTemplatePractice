@@ -15,7 +15,7 @@ namespace DataTemp.Controls
         public DeviceViewCell()
         {
             InitializeComponent();
-            BindingContext = new DeviceViewCellViewModel();
+            //BindingContext = new DeviceViewCellViewModel();
         }
     }
 }
